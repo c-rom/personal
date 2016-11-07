@@ -39,13 +39,8 @@
 
 <body <?php body_class(); ?>>
     <div class="container-fluid">
-        <header class="row">
+        <header id="site-title" class="row">
             <div class="col-sm-9 col-sm-offset-1 col-md-7 col-md-offset-1">
-                <a href="/" class="btn btn-default">Back</a>
+                <h1><a href="/"><?php bloginfo('name'); ?></a></h1>
             </div>
         </header>
-        <!--<header id="site-title" class="row">
-            <div class="col-md-6 col-md-offset-6">
-                <h1><?php bloginfo('name'); ?></h1>
-            </div>
-        </header>-->
